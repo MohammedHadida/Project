@@ -1,0 +1,157 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: #f2e7c7;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#logo-header {
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    display:inline-block;
+}
+
+li a:hover {
+    background-color: #56fc03;
+}
+
+li a {
+    display:block;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17d450;
+    padding: 0;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 75%;
+}
+
+  
+.banner {
+    background-image: url(https://images.pexels.com/photos/434258/pexels-photo-434258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    opacity: 80%;
+    border-radius: 10px;
+    display:flex;
+    padding: 10px 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main-special {
+    display: block;
+    background-color: #17d450;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin: 20px;
+}
+
+.main-special h1 {
+    color: #fa1e1e;
+}
+
+article {
+    flex: 1;
+}
+
+.secondary-items {
+    display: flex;
+    flex-grow: 1;
+}
+
+.secondary-items #booking {
+    background-color:#17d450;
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.secondary-items #opening {
+    background-color:#17d450;
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+#logo-footer {
+    position: relative;
+    display: inline-block;
+  }
+  
+#logo-footer img {
+    transition: transform 0.5s ease;
+  }
+  
+#logo-footer:hover img {
+    transform: scale(1.1);
+}
+
+#copyright {
+    text-align: right;
+    border-top: 2px solid #17d450;
+    padding: 0;
+    margin: 0;
+}
